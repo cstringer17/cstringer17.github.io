@@ -1,0 +1,70 @@
+
+  html { overflow-y: hidden; }
+    body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+      }
+    
+      main {
+        flex: 1 0 auto;
+      }
+          
+  
+  .parallax-container {
+    height: 700px;
+  }
+  .parallax{
+    position:static;
+  }
+  h2{
+    font-family: 'Staatliches', cursive;
+
+  }
+
+  #page-footer{
+      background-color: #AE9287;
+  }
+
+  .fixed-action-btn{
+    left:50px;/*desired value*/
+    top: 35px;
+    }
+
+    li {
+        display: inline;
+        padding: 15px;
+      }
+
+      #icon1{
+          background-color: #27150E;
+      }
+      #icon2{
+        background-color: #C8B2A5;
+    }
+    #icon3{
+        background-color: #956B4C;
+    }
+    #icon4{
+        background-color: #AE9287;
+    }
+    blockquote {
+        padding-top: 20px;
+        margin: 0 auto;
+        padding: 1em;
+        border-left: 0;
+      }
+     
+      blockquote p {
+          margin: 0;
+        color: #555;
+        font-size: 18pt;
+        line-height: 1.4;
+        font-family: 'PT Serif', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+      }
+#someSortOfContainer{
+    padding-bottom: 0;
+}
+#copy-right{
+    margin: 0;
+}

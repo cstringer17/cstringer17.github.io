@@ -1,0 +1,52 @@
+
+
+    <div class="parallax-container" height="3000">
+        <div class="container">
+            
+            <div class="card-panel white hoverable">
+                <h2>Apprenticeship modules</h2>
+
+                <ul class="collapsible hoverable">
+                    <li class="active">
+                        <div class="collapsible-header"><i class="material-icons">child_care</i>First Year</div>
+                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">child_friendly</i>Second Year</div>
+                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">directions_walk</i>Third Year</div>
+                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">directions_run
+                            </i>Fourth Year</div>
+                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+    <footer class="page-footer center-align" id="page-footer">
+        <div class="container center-align">
+            <div class="row">
+                <div class="col l6 s12 center-align">
+                    <h5 class="white-text center-align">Socials</h5>
+                    <div class="row center-align">
+                        <div class="col s1 center-align"><a href="www.linkedin.com/in/callum-stringer" target="_blank"></a><img
+                                src="images/discord.png" height="32"></a></div>
+                        <div class="col s1 center-align"><a href="https://www.linkedin.com/in/callum-stringer" target="_blank"><img
+                                    src="images/link.png" height="32"></a></div>
+                        <div class="col s1 center-align"><a href="https://www.instagram.com/_callumstringer_/" target="_blank"><img
+                                    src="images/insta.png" height="32"></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
