@@ -1,0 +1,3 @@
+
+Watcher for jsx:
+npx babel --watch src --out-dir react --presets react-app/prod
