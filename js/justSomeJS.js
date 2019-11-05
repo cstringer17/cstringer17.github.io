@@ -18,3 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
       hoverEnabled: false
     });
   });
+
+  $(document).ready(function() {
+    $('input#input_text, textarea#textarea2').characterCounter();
+  });

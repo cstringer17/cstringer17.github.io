@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../css/materialize.min.css" media="screen,projection" />
+    <!--Import stylesheet-->
+    <link href="../css/stylesheet.css" rel="stylesheet" type="text/css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+
+    <div id="someSortOfContainer" class="section white">
+        <div class="container">
+            <h2 margin="20" data-target="slide-out" class="center-align sidenav-trigger">Add Project</h2>
+
+            <!--Input project info-->
+            <div class="card-panel white center-align">
+                <div class="center-align row">
+                    <form class="center-align col s8">
+                        <div class="row">
+                            <div class="center-align input-field col s8">
+                                <input id="project-name" type="text" class="validate" data-length="20">
+                                <label for="project-name">Project name</label>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="input-field col s8">
+                                <input id="email" type="email" class="validate">
+                                <label for="email">Email</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                              <textarea id="textarea1" class="materialize-textarea"></textarea>
+                              <label for="textarea1">Textarea</label>
+                            </div>
+                          </div>
+
+                    </form>
+                </div>
+            </div>
+
+            <ul class="center-align">
+                <li><a id="icon1" class="btn-floating"><i class="material-icons">person_outline</i></a></li>
+                <li><a href="../index.html" id="icon2" class="btn-floating"><i class="material-icons">home</i></a></li>
+                <li><a id="icon3" class="btn-floating"><i class="material-icons">insert_photo</i></a></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <p id="copy-right" class="center-align">Copyright © 2019, Callum Stringer</p>
+
+
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="../js/materialize.min.js"></script>
+    <script type="text/javascript" src="../js/justSomeJS.js"></script>
+
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+    <!--Load JSX-->
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <!-- Load our React component. -->
+    <script src="../react/like_button.js"></script>
+</body>
+
+</html>
