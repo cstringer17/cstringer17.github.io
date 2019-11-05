@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/cstringer17/cstringer17.github.io#readme",
   "dependencies": {
+    "animejs": "^3.1.0",
     "babel-cli": "^6.26.0",
     "babel-preset-react-app": "^3.1.2",
     "mongodb": "^3.3.3"
