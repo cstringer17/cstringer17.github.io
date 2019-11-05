@@ -45,6 +45,16 @@ function normalSpin(id, speed) {
         
 
     });
+    
+    anime({
+        targets: '#' + id + '> .project-information',
+        duration: speed,
+        direction: 'alternate',
+        opacity:1,
+
+    });
+
+
 }
 
 // document, addEventListener('DOMContentLoaded', function () {
