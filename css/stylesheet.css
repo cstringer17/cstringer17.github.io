@@ -1,5 +1,6 @@
 
-  html { overflow-y: hidden; }
+  *
+  /*html { overflow-y: hidden; }*/
     body {
         display: flex;
         min-height: 100vh;
@@ -67,4 +68,24 @@
 }
 #copy-right{
     margin: 0;
+}
+.panel{
+  height: 350px;
+  width: 100%;
+  background-color: aqua;
+  position: relative;
+}
+.bar{
+  width: 100%;
+  height: 10%;
+  opacity: 0.7;
+  position: relative;
+  top: 90%;
+  background-color: black;
+}
+.textbox{
+width: 100%;
+height: 70%;
+position: relative;
+background-color: red;
 }
