@@ -37,15 +37,31 @@ function normalSpin(id, speed) {
         position: 'relative',
 
     });
+    anime({
+        targets: '#' + id + '> .h3-panel',
+        opacity: 0,
+        duration: speed,
+        direction: 'alternate',
+        
+
+    });
 }
 
-document, addEventListener('DOMContentLoaded', function () {
+// document, addEventListener('DOMContentLoaded', function () {
     
-    var words = ['one ','two ','three ','four ', 'five ','six ','seven ','eight '];
+//     var words = ['one ','two ','three ','four ', 'five ','six ','seven ','eight '];
+//     flyin();
+//     var i;
+//     for (i = 0; i < 8; i++) {
+//         normalSpin(words[i], 4000);
+//     }
+// });
 
-    var i;
-    for (i = 0; i < 8; i++) {
-        
-        normalSpin(words[i], 2000);
-    }
-});
+function flyin(){
+    console.log("working");
+    anime({
+        targets: ['#layer1', '#layer2'],
+        opacity:1,
+        duration: 8000,
+    });
+}
