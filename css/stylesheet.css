@@ -254,3 +254,10 @@ border: #0D0D0C 5px;
 #cv ul li{
   padding :0;
 }
+#main{
+  height: 100%;
+  bottom: 0%;
+}
+#footer-sticky{
+  bottom: 0%;
+}
