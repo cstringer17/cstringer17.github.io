@@ -24,4 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.tap-target');
     var instances = M.TapTarget.init(elems);
   });
+  document.addEventListener('DOMContentLoaded', function () {
+    M.toast({html: 'Click on some of the icons!'})
+  })
  
