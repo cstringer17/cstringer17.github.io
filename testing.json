@@ -34,8 +34,8 @@
 		}
 	},
 	"events": {
-		"change": {
-			"description": "Called when file is uploaded"
+		"onClick": {
+			"description": "Called when button is pressed"
 		}
 	}
 }

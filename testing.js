@@ -4,6 +4,7 @@
     `
     <h1>File Upload</h1>
     <input type="file" name="fileUpload" id="fileUpload">
+    <button type="button" id="myBtn">Import?</button>
     ` ;   
    
     class PerformanceHelp extends HTMLElement {
@@ -13,20 +14,22 @@
         }
 
         init() {            
-              
+
             let shadowRoot = this.attachShadow({mode: "open"});
             shadowRoot.appendChild(tmpl.content.cloneNode(true));
-            this.addEventListener("change", event => {
-            var event = new Event("change");
+            this.addEventListener("click", event => {
+            var event = new Event("onClick");
             this.fireChanged();           
             this.dispatchEvent(event);
             });           
         }
 
         fireChanged() {
-            console.log("change Triggered");     
-            
-        }        
+            console.log("OnClick Triggered");     
+
+        }    
+
+             
         
     }
 
