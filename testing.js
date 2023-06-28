@@ -27,8 +27,8 @@
 
         fireChanged() {
             const fileUploadInput = document.getElementById('fileUpload');
-            const uploadedFile = fileUploadInput.files[0];
-            console.log('Uploaded file:', uploadedFile);
+            //const uploadedFile = fileUploadInput.files[0];
+            console.log('Uploaded file:', fileUploadInput.files);
         }    
 
              
