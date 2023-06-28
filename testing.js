@@ -4,6 +4,7 @@
     `
     <h1>File Upload</h1>
     <input type="file" name="fileUpload" id="fileUpload">
+    <h1>Confirm Data</h1>
     <button type="button" id="myBtn">Import?</button>
     ` ;   
    
